@@ -30,11 +30,13 @@ fail2ban
 glances
 cron-apt
 
-Fail2ban was installed to ban ip addresses for multiple failed authentition attempts, Glances for monitoring, cron-apt for automatic updates.
+Fail2ban was installed to ban ip addresses for multiple failed authentition attempts, Glances for monitoring, cron-apt for automatic updates (set to default of 4AM update).
 
 
-UFW was conifgured as specified in the instructions.
+UFW was conifgured as specified in the instructions and set to 
 
 
 Additional permission changes in the app folder structure was need to facilitate file uploads (for saving, deleting files and folders).
 
+
+Stackoverflow, askubuntu, postgres docs, flask docs and the udacity course on Linux Server Configuration was used as reference.
